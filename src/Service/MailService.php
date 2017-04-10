@@ -285,7 +285,7 @@ class MailService implements MailServiceInterface
      *
      * @return TransportInterface
      */
-    protected function getTransport()
+    public function getTransport()
     {
         return $this->transport;
     }
